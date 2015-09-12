@@ -37,7 +37,7 @@ public class MainActivity extends ActionBarActivity {
     private void startSubActivity(){
 
        Intent intent = new Intent(this,SubActivity.class);
-       intent.putExtra("key","hogehoge5");
+       intent.putExtra("key","hogehoge7");
        startActivityForResult(intent,0);
     }
 
